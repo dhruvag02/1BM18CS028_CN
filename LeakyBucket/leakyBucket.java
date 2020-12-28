@@ -42,6 +42,7 @@ class leakyBucket{
 			System.out.println("Buffer Size= "+storage+" out of 						bucket size= "+bucket_size);
 		}
 		storage -= output_pkt_size;
+		System.out.println("1 packet outputed");
 	}
 }
 }
